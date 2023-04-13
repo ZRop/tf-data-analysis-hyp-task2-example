@@ -13,6 +13,6 @@ chat_id = 672508499 # Ваш chat ID, не меняйте название пе�
 
 def solution(x: np.array, y: np.array) -> bool:
     if anderson_ksamp([x, y]).significance_level < 0.1:
-        return False
-    else:
         return True
+    else:
+        return False
